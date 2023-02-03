@@ -1,0 +1,5 @@
+ARG VARIANT="latest"
+
+FROM nimlang/nim:${VARIANT}
+
+RUN useradd -rm -d /home/nim -s /bin/bash -g root -G sudo -u 1001 nim

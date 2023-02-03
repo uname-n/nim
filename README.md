@@ -1,0 +1,1 @@
+`nim c -r -o=ex _ex/blockchain.nim`
